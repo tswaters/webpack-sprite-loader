@@ -12,6 +12,9 @@ CSS is not emitted.  This is intended to be used with canvas `drawImage`.
 npm i --save-dev webpack-sprite-plugin
 ```
 
+This has been tested to work with webpack 2.2.0
+Webpack 1.x support is unknown.
+
 ## Usage
 
 ```js
