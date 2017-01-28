@@ -1,6 +1,6 @@
 {
   "name": "webpack-sprite-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/sprite-plugin.js",
   "author": "Tyler Waters <tyler.waters@gmail.com>",
