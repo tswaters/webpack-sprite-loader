@@ -1,0 +1,19 @@
+{
+  "name": "webpack-sprite-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/sprite-plugin.js",
+  "author": "Tyler Waters <tyler.waters@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "glob": "^7.1.1",
+    "loader-utils": "^0.2.16",
+    "spritesmith": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.14.1"
+  }
+}
