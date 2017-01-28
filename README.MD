@@ -1,4 +1,4 @@
-# webpack-sprite-loader
+# webpack-sprite-plugin
 
 Uses spritesmith to generate sprites map
 
@@ -9,19 +9,19 @@ CSS is not emitted.  This is intended to be used with canvas `drawImage`.
 ## Installation
 
 ```
-npm i --save-dev webpack-sprite-loader
+npm i --save-dev webpack-sprite-plugin
 ```
 
 ## Usage
 
 ```js
-const WebpackSpriteLoader = require('webpack-sprite-loader')
+const WebpackSpritePlugin = require('webpack-sprite-plugin')
 module.exports = {
   output: {
     path: './dist'
   },
   plugins: [
-    new WebpackSpriteLoader({
+    new WebpackSpritePlugin({
       cwd: path.resolve(__dirname, 'src/assets'),
       glob: '*.png',
       result: 'images/sprite.png'
